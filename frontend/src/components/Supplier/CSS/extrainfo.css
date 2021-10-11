@@ -1,0 +1,32 @@
+.hs-parent-exter-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hs-parent-exter-info-first {
+  padding: 10px;
+  background-color: #007bff;
+  height: 100px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.hs-parent-exter-info-second {
+  padding-left: 10px;
+  background-color: #dc3545;
+  height: 100px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.hs-parent-exter-info-first h1 {
+  font-size: 20px;
+}
+
+.hs-parent-exter-info-second h1 {
+  font-size: 20px;
+}

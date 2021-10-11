@@ -1,0 +1,8 @@
+.hs-result-no-found {
+  background-color: #dc3545;
+  margin-top: 10px;
+}
+
+.hs-result-no-found h1 {
+  font-size: 20px;
+}

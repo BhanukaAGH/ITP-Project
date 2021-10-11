@@ -1,0 +1,15 @@
+/* Import Poppins Font */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,300,200,700');
+/* Import Font Awesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+/* Import Animate CSS */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.h-100 {
+  height: 100% !important;
+}

@@ -1,0 +1,46 @@
+.Main-Table-Container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.Supplier-table {
+  width: 80%;
+  background-color: rgb(247, 247, 242);
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 2px 12px rgba(32, 32, 32, 0.3);
+  margin-top: 20px;
+  border: 2px solid black;
+}
+
+.hsth,
+.hstd {
+  padding: 12px 15px;
+  font-size: 1.1em;
+  border: 1px solid black;
+}
+
+.hsth {
+  background-color: #343a40;
+  color: #fafafa;
+  text-align: center;
+}
+
+.hstr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+.hs-view-table {
+  background-color: #ffc107;
+}
+
+.hs-update-table {
+  background-color: #28a745;
+}
+
+.hs-delete-table {
+  background-color: #dc3545;
+}

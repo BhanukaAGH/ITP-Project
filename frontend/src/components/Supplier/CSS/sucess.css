@@ -1,0 +1,30 @@
+.main-foucs {
+  z-index: 5;
+  position: fixed;
+  width: 80%;
+  height: 80%;
+}
+
+.main-sucees {
+  background-color: rgb(82, 82, 82);
+  width: 70%;
+  position: relative;
+  left: 20%;
+  top: 30%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.hs-btn-success-msg {
+  padding: 5px 15px;
+  background-color: chocolate;
+  border: none;
+  font-size: 1.5em;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.hs-heading-success {
+  color: white;
+}

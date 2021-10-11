@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto&display=swap');
+.hs-Main-container {
+  background-color: #343a40;
+  z-index: 5;
+  width: 80%;
+  height: 90%;
+  position: fixed;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: black;
+  margin-top: 10px;
+}
+
+.hs-sub-container.sucess .hs-input-class {
+  border: 2px solid green;
+}
+
+.hs-sub-container.error .hs-input-class {
+  border: 2px solid rgb(255, 39, 1);
+}
+
+.hs-Full-continer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hs-sub-container {
+  margin-top: 5px;
+}
+
+.hs-second-container {
+  width: 40%;
+}
+
+.hs-profile-image {
+  width: 30%;
+  margin-top: 30px;
+}
+
+small {
+  display: block;
+  visibility: hidden;
+  color: red;
+}
+
+.hslabel {
+  font-size: 1.5em;
+  display: block;
+  text-align: left;
+  color: white;
+  font-family: 'Abel', sans-serif;
+}
+
+.hs-input-class {
+  padding: 5px 50px;
+  border-radius: 10px;
+  border: none;
+}
+
+.hs-Regsiter-btn {
+  background-color: #ffc107;
+}
+
+.hs-btn-register {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.hs-Regsiter-btn {
+  padding: 10px 20px;
+  background-color: #ffc107;
+  font-size: 1.2em;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.hs-Regsiter-btn:hover {
+  color: rgb(228, 10, 10);
+}
+
+.hs-btn-closer {
+  margin: 10px;
+}
+.hs-closer-btn {
+  padding: 5px 15px;
+  background-color: #ffc107;
+  font-size: 1.2em;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.hs-btn-profile-close {
+  top: 20%;
+  left: 40%;
+}

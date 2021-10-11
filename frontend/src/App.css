@@ -1,0 +1,269 @@
+/* navbar */
+.logo {
+  width: 180px;
+  height: 40px;
+}
+
+.nav-bar {
+  background-color: #0c4da2;
+}
+
+.nav-bar .nav-link {
+  color: #fff !important;
+}
+
+.navbar-brand {
+  color: white;
+  letter-spacing: 1px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.nav-bar-top {
+  height: 40px;
+  background-color: #023a79;
+  position: relative;
+}
+
+.top-left {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+}
+
+.top-email {
+  background-color: #cb1836;
+  padding: 0 10px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 40px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 102, 203);
+}
+
+.slider {
+  position: relative;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .logo {
+    width: 30px;
+  }
+
+  .navbar-brand {
+    font-size: 22px;
+    font-weight: 600;
+  }
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+  }
+}
+
+/* product section image */
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  .container-border {
+    border: none !important;
+  }
+}
+
+.card-hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1), 0 0 6px rgba(0, 0, 0, 0.07);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+}
+
+.card-hover:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18), 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.circle-icon {
+  background: #000;
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  padding: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.circle-icon:hover {
+  background-color: #db1e44;
+  color: #000;
+  box-shadow: 1px 1px 10px 4px #888888;
+}
+
+/* Login */
+.brand {
+  width: 150px;
+  height: 150px;
+}
+
+.brand img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1200px) {
+  .login-container {
+    width: 100% !important;
+  }
+}
+
+/* Admin */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 3rem;
+  }
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+.sidebar .nav-link.active {
+  color: #2470dc;
+}
+
+.sidebar-heading {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.admin-brand {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.25);
+}
+
+.navbar .navbar-toggler {
+  top: 0.25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+  padding: 0.75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.25);
+}
+
+.nav-item-icon {
+  font-size: 1.2rem;
+  padding-right: 10px;
+}
+
+ul.nav a:hover {
+  background-color: #e4dfdf;
+}
+
+/* My Account */
+.Account-banner {
+  height: 230px;
+}
+
+/* Not Found */
+.svg-width {
+  width: 50%;
+}
+@media (max-width: 1400px) {
+  .svg-width {
+    width: 75%;
+  }
+}
+
+.advertismentsection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(620px, 1fr));
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+}
+
+.image-upload {
+  background-image: url("./img/upload-button.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.image-upload:hover {
+  opacity: 0.8;
+}

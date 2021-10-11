@@ -1,0 +1,14 @@
+.has-name-list {
+  padding: 5px 20px;
+  margin-right: 10px;
+  margin-top: 20px;
+  color: white;
+  background-color: #343a40;
+}
+
+.has-search-list {
+  padding: 5px 20px;
+  margin-top: 20px;
+  background-color: #343a40;
+  color: white;
+}

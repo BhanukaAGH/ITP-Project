@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-formr {
+  max-width: 700px;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #f5f4f0;
+  padding: 20px 25px;
+  border-radius: 5px;
+  height: 350px;
+  border: 1px solid black;
+
+  left: 30%;
+  margin-top: 50px;
+}
+
+.main-formr form .supplier-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+form .supplier-product .form-inputs {
+  margin: 20px 0 12px 0;
+  width: calc(100% / 2 -20px);
+}
+
+.supplier-product .form-inputs {
+  height: 45px;
+  width: 50%;
+}
+
+.supplier-product .form-inputs.from-lable {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.supplier-product .form-inputs input {
+  height: 45px;
+  width: 90%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(39, 39, 39);
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.supplier-product .form-inputs select {
+  height: 45px;
+  width: 90%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(39, 39, 39);
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+form .form-button {
+  height: 45px;
+  margin: 45px 0;
+}
+
+.add-btn {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+}
+.add-btn {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+}
+
+.add-btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
