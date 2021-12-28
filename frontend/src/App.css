@@ -258,6 +258,18 @@ ul.nav a:hover {
   grid-column-gap: 10px;
 }
 
+@media (max-width: 1400px) {
+  .advertismentsection {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+}
+
+@media (max-width: 992px) {
+  .advertismentsection {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
 .image-upload {
   background-image: url("./img/upload-button.png");
   background-position: center;
